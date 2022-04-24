@@ -9,7 +9,6 @@ export const AppContextProvider = props => {
   const [over18, setOver18] = useState(null);
   const [filteredVideos, setFilteredVideos] = useState(null);
   const [baseUrl, setBaseUrl] = useState("http://localhost:5500")
-//   const [baseUrl, setBaseUrl] = useState("https://telepath-server.vercel.app")
 
     return (
         <AppContext.Provider 

@@ -133,7 +133,7 @@ export const subredditPagination = async (x, y, z) => {
         after: after
     }
 
-    const response = await fetch("https://telepath-server.vercel.app/subreddit/fetch", {
+    const response = await fetch("http://localhost:5500/subreddit/fetch", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body)
