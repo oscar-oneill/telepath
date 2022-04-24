@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "2.0.0",
+  "license": "GNU AGPLv3",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

@@ -52,7 +52,6 @@ const Authenticate = () => {
                 localStorage.setItem("token", res.data.access_token)
                 localStorage.setItem("refresh_token", res.data.refresh_token)
                 localStorage.setItem("expires_in", res.data.expires_in)
-                console.log("Token updated")
             })
             .catch((err) => {
                 console.log(err)

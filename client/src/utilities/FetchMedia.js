@@ -63,7 +63,9 @@ export const videoFilter = (data) => {
                     }
                 })
                 const data = await imgurPost.json()
-                
+
+                console.log(data)
+
                 if (!data) return
                 arr.push(item)
             }
@@ -80,16 +82,6 @@ export const videoFilter = (data) => {
                 if (data.errorMessage || data.message) return
                 arr.push(item)
                 
-            }
-
-            if (item.domain === "v.redd.it") {
-                // 
-                arr.push(item)
-            }
-
-            if (item.domain === "i.redd.it") {
-                // 
-                arr.push(item)
             }
         })
         return { arr }
