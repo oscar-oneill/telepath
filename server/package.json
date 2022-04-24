@@ -1,0 +1,26 @@
+{
+  "name": "telepath-server",
+  "version": "2.0.0",
+  "description": "Telepath for Reddit Server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Oscar O'Neill",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.1",
+    "snoowrap": "^1.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

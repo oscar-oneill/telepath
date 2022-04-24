@@ -1,0 +1,18 @@
+#lightswitch {
+  border: none;
+  outline: none;
+  background: transparent;
+  height: auto;
+  width: auto;
+  font-family: 'Atkinson Hyperlegible';
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#lightswitch:hover {
+  color: #7fffd4;
+}
+

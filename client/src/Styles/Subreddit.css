@@ -1,0 +1,20 @@
+.subreddit_container {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loading_container_2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+}

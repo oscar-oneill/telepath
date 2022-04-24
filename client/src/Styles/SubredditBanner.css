@@ -1,0 +1,145 @@
+.sub_container {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    letter-spacing: -.4px;
+    top: 60px;
+}
+
+.content_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-1 {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.box-2 {
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.sub_icon {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    border: 3px solid #ffffff;
+    object-fit: cover;
+    background: #000000;
+}
+
+.nsfw_banner {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: lightcoral;
+    margin-left: 5px;
+}
+
+.subscriber {
+    height: 20px;
+    width: auto;
+    padding: 5px;
+    background: black;
+    margin-left: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-pane {
+    margin-right: 10px;
+    width: auto;
+}
+
+.name {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    font-size: 16px;
+    max-width: 320px;
+    overflow: hidden;
+}
+
+.mini-1 {
+    height: 100%;
+    width: 170.66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mini-2 {
+    height: 100%;
+    width: 170.66px;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.mini-3 {
+    height: 100%;
+    width: 170.66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 1069px) {
+    .mini-1, .mini-2, .mini-3 {
+        font-size: 14px;
+        width: auto;
+        margin: 0 10px;
+    }
+
+    .content_container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-1, .box-2 {
+        width: auto;
+    }
+
+    .box-2 {
+        margin-top: 10px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    .sub_icon {
+        height: 70px;
+        width: 70px;
+    }
+
+}
